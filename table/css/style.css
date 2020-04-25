@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif, arial, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 250%;
+}
+
+table {
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    width: 40%;
+    height: 400px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+tr {
+    border: 1px solid black;
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+}
+
+.even {
+    background-color: gray;
+}
+
+tr:hover {
+    background-color: rgb(167, 155, 155);
+}
